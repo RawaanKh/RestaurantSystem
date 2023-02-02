@@ -21,7 +21,7 @@ public class Restaurant {
      @NotEmpty(message = "Branch Type cannot be empty")
     private String branchType;
      @NotEmpty(message = "Branch Type cannot be empty")
-     @Size(min = 10,message = "address should include neighborhood name/ street name/ house number" )
+     @Size(min = 10,message = "address should include neighborhood name/ street name" )
      private String address;
 
 }
